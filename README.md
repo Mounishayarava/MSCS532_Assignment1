@@ -15,3 +15,10 @@ if __name__ == "__main__":
     print("Original:", data)
     insertion_sort_desc(data)
     print("Sorted (Descending):", data)
+    # Added user input functionality
+if __name__ == "__main__":
+    data = [int(x) for x in input("Enter numbers separated by space: ").split()]
+    print("Original:", data)
+    insertion_sort_desc(data)
+    print("Sorted (Descending):", data)
+
